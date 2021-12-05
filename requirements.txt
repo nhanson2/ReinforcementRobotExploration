@@ -6,3 +6,8 @@ more_itertools
 torch
 tqdm
 gym[box2d]
+gym
+typing
+torch
+pygame
+glfw
