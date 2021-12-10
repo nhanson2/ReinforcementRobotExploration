@@ -8,7 +8,8 @@ This is a pytorch implementation of [Hindsight Experience Replay](https://arxiv.
 - python=3.8
 - moujoco
 ## Running Results
-Fetch Slide
-Open `Robot_Exploration_with_Hindsight_Experience_Replay.ipynb`
+#### Fetch Slide
+Open `
+Robot_Exploration_with_Hindsight_Experience_Replay.ipynb`
 ## Results
 Open `Plotting_Utilities.ipynb`
