@@ -1,11 +1,10 @@
 # DDPG_MountainCar
 
+A Tensorflow implementation of DDPG, and an investigation of various exploration methods.
 
-The mountain car continuous problem from gym was solved using DDPG, with neural networks
-as function aproximators.
-The solution is inspired in the DDPG algorithm, but using only low level information as inputs to the net, basically the net uses the position and velocity from the gym environment.
-The exploration is done by adding Ornstein-Uhlenbeck Noise to the process. 
+Of particular note: parameter space noise, and Ornstein-Uhlenbeck process.
 
+Hyperparameters are hard.
 
 ## Requirements:
 
@@ -13,13 +12,8 @@ The exploration is done by adding Ornstein-Uhlenbeck Noise to the process.
 - Tensorflow
 - Open AI Gym
 
-
 ## How to run
 
-Simply run
-
-```
-python mountain.py
-```
+Simply run one of the various ``mountain_exploration_method.py`` files.
 
 If there is a model saved in the folder it will load and start the training/testing.
